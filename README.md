@@ -5,7 +5,7 @@ The English word “COINS” is very interesting because one letter at a time ca
 
 **Solution: CHOREGUSES, 10 letters**
 
-##Problem 2
+## Problem 2
 For this problem, you can assume modern computers are very fast and big—i.e., minor improvements to computational complex- ity and memory use are unimportant compared to improvements in usability and an elegant interface. Find the 10,000th prime number using whichever method you’d like. (You don’t have to keep around the first 9,999th prime numbers unless your method requires it; we’re only interested in the 10,000th one.) Provide whatever computer code, algorithm, or technique you used to arrive at your solution. Extra Credit: To find the Nth prime number for any N, are there different regimes (i.e., magnitudes) under which you might change your approach, given the constraints of contemporary computer systems?
 
 **Solution: 104729**
