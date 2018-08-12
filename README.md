@@ -1,7 +1,7 @@
 # Solutions for Genesis Questions
 
 ## Problem 1
-The English word “COINS” is very interesting because one letter at a time can successively be removed (from the beginning, middle, or end), and each word along the way is a valid English word—viz., COINS → COIN → CON → ON → O. Find the longest word with this property. Use an official Scrabble⃝R “SOWPODS” dictionary available at https://github.com/ jesstess/Scrabble/blob/master/scrabble/sowpods.txt, and augment it to include the three one-letter words ‘A,’ ‘I,’ and ‘O.’ Provide whatever computer code, algorithm, or technique you used to arrive at your solution. Extra Credit: For a dictionary of N words with average length k, what’s the asymptotic computational complexity of your approach (using the canonical “big O” notation)?
+The English word “COINS” is very interesting because one letter at a time can successively be removed (from the beginning, middle, or end), and each word along the way is a valid English word—viz., COINS → COIN → CON → ON → O. Find the longest word with this property. Use an official Scrabble “SOWPODS” dictionary available at https://github.com/ jesstess/Scrabble/blob/master/scrabble/sowpods.txt, and augment it to include the three one-letter words ‘A,’ ‘I,’ and ‘O.’ Provide whatever computer code, algorithm, or technique you used to arrive at your solution. Extra Credit: For a dictionary of N words with average length k, what’s the asymptotic computational complexity of your approach (using the canonical “big O” notation)?
 
 **Solution: CHOREGUSES, 10 letters**
 

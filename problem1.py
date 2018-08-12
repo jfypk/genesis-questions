@@ -119,9 +119,6 @@ def findLongestSpecialWord(wordlist):
     
     #find the length of longest word in the wordlist
     longestWordInDictLength = findLongestWordLength(wordlist)
-
-    # #create a new dictionary with words of that length.
-    # newDict = findWordsOfLength(wordlist, longestWordInDictLength)
     
     #starting from the longest word, iterate thru newDict to find a word that matches the criteria. End the loop if word is found
     for numLetters in range(longestWordInDictLength, 1, -1):
