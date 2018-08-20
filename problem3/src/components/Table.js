@@ -87,7 +87,7 @@ export default class Table extends Component {
 
     //dynamically creates columns based on csv data. Also dynamically creates popup for each cell to show summary statistics and cell information
     getColumns(data) {
-        return this.props.headers.map(key => {
+        let col = this.props.headers.map(key => {
             return {
                 Header: key,
                 id: key,
@@ -110,6 +110,14 @@ export default class Table extends Component {
                 /> ); }
             };
         });
+        col.unshift({
+            Header: "Index",
+            accessor: "row",
+            filterable: false,
+            maxWidth: 80
+        });
+
+        return col;
     }
 
     // Whenever the table model changes, or the user sorts or changes pages, this method gets called and passed the current table model.
@@ -170,12 +178,6 @@ export default class Table extends Component {
         
         //add index column to dataset
         this.columns = this.getColumns(data);
-        this.columns.unshift({
-            Header: "Index",
-            accessor: "row",
-            filterable: false,
-            maxWidth: 80
-        });
         
         return (
             <div className="Table">
