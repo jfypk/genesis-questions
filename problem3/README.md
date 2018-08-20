@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+#Install
+
+To begin, navigate to the directory and enter the following command in your terminal to start:
+
+```
+  yarn start
+```
+
 #Prompt
 Please provide any well-commented Javascript source code using the standard libraries of your choice. Commonplace and well-tested libraries are preferred to exotic ones.
 
