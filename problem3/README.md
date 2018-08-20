@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-#Install
+# Install
 
 To begin, navigate to the directory and enter the following command in your terminal to start:
 
@@ -8,10 +8,17 @@ To begin, navigate to the directory and enter the following command in your term
   yarn start
 ```
 
-#Prompt
+or 
+
+```
+  npm install
+  npm start 
+```
+
+# Prompt
 Please provide any well-commented Javascript source code using the standard libraries of your choice. Commonplace and well-tested libraries are preferred to exotic ones.
 
-##Problem
+## Problem
 Construct an interface for displaying a simple table, represented as a CSV file. During your in-person interview, we will provide a CSV file for you to demonstrate your code. It will conform to the following specifications: (i) the first row contains only titles, as strings; (ii) all other rows contain numerical or text data; and (iii) columns are homogeneous (i.e., not mixed numerical and text data). The interface should be as user-friendly, efficient, and intuitive as possible. Support the following functionality:
 
 1. The table may have lots of rows, so provide either pagination or scrolling; it does not have lots of columns. Next to each row or data, display the original row number (with the header counting as row 0).
