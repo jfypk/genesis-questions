@@ -29,3 +29,6 @@ Construct an interface for displaying a simple table, represented as a CSV file.
 6. When hovering over a particular cell, identify its row number in the current display. When hovering over column names, identify the the column type and which filtering or sorting methods are currently being applied to the column.
 
 Extra Credit: Allow for columns to be reordered, and to be added to or removed from the display. Also, augment the interface with any graphical visualizations you find interesting, useful, or appropriate.
+
+## Known issues
+- Wildcard matching isn't supported within the React-Table filters. Looking for workaround.
